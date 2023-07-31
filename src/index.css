@@ -12,7 +12,7 @@
 }
 
 /*Variables de CSS para personalizaciones generales*/
-
+/*
 :root{
     --color-bg: #1f1f38;
     --color-bg-variante: #2c2c6c;
@@ -20,6 +20,23 @@
     --color-primary-variante: rgba(77,181,255,0.4);
     --color-blanco: #fff;
     --color-claro: rgba(255,255,255,0.6);
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+
+    --transition: all 400ms ease;
+}
+*/
+
+:root{
+
+    --color-bg: #c8c8c8;
+    --color-bg-variante: #878787;
+    --color-primary: #4a4a4a;
+    --color-primary-variante: rgba(77,181,255,0.4);
+    --color-blanco: #fff;
+    --color-claro: rgba(32, 32, 32, 0.6);
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -133,6 +150,10 @@ img{
     opacity: 1;
     height: auto;
     width: auto;
+  }
+
+  .language-correct {
+    margin-bottom: 0 !important;
   }
 
 
