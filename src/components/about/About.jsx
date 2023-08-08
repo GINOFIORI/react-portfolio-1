@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/IMG5.png'
 import { LanguageContext } from '../../context/LanguageContext';
 import {IoIosSchool} from 'react-icons/io'
 import {BsCodeSlash} from 'react-icons/bs'
