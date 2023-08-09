@@ -1,6 +1,7 @@
 header{
     height: 100vh;
     padding-top: 3rem;
+    margin-top: 2rem;
     overflow: hidden;
 }
 
@@ -8,6 +9,11 @@ header{
     text-align: center;
     height: 100%;
     position: relative;
+}
+
+.monoscope{
+    font-family: monospace;
+    font-size: 0.9rem;
 }
 
 .cta{
@@ -28,12 +34,12 @@ header{
 }
 
 .me{
-    background: linear-gradient(var(--color-primary),transparent);
+    background: linear-gradient(transparent,var(--color-primary));
     width: 22rem;
     height: 25rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
+    margin-top: 2rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;

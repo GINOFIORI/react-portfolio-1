@@ -82,6 +82,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    padding-top: 5rem;
 }
 
 section > h2, section >h5{
@@ -146,15 +147,16 @@ img{
     transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
 }
   
-  .language-visible {
+.language-visible {
     opacity: 1;
     height: auto;
     width: auto;
-  }
+}
 
-  .language-correct {
+.language-correct {
     margin-bottom: 0 !important;
-  }
+}
+
 
 
 /* ================= MEDIA (MEDIUM DEVICES) =================*/
