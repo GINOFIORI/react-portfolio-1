@@ -1,7 +1,7 @@
 import React, {useContext} from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me-5.png'
+import ME from '../../assets/IMG16.png'
 import HeaderSocials from './HeaderSocials'
 import { LanguageContext } from '../../context/LanguageContext';
 import Typewriter from 'typewriter-effect';
