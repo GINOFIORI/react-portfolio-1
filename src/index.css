@@ -31,12 +31,12 @@
 
 :root{
 
-    --color-bg: #c8c8c8;
+    --color-bg: #c8c8c8;    
     --color-bg-variante: #878787;
     --color-primary: #4a4a4a;
-    --color-primary-variante: rgba(77,181,255,0.4);
+    --color-primary-variante: rgba(0, 0, 0, 0.996);
     --color-blanco: #fff;
-    --color-claro: rgba(32, 32, 32, 0.6);
+    --color-claro: rgba(13, 13, 13, 0.6);
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -81,7 +81,6 @@ h1 {
 }
 
 section {
-    margin-top: 8rem;
     padding-top: 5rem;
 }
 

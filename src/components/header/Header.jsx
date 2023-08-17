@@ -11,15 +11,19 @@ const Header = () => {
     return (
         <header>
             <div className="container header__container">
-                <h5 className={`language-transition ${language === 'en' ? 'language-visible' : ''}`}>Hello I'm</h5>
-                <h5 className={`language-transition ${language === 'es' ? 'language-visible' : ''}`}>¡Hola! Soy</h5>
-                <h1>Gino Fiori</h1>
-                <h5 className={`text-light monoscope language-transition ${language === 'en' ? 'language-visible' : ''}`}><Typewriter options={{strings:['Software Developer'],autoStart:true,loop:true}} /></h5>
-                <h5 className={`text-light monoscope language-transition ${language === 'es' ? 'language-visible' : ''}`}><Typewriter options={{strings:['Desarrolador de Software'],autoStart:true,loop:true}}/></h5>
-                <CTA/>
-                <HeaderSocials/>
-                <div className="me">
-                    <img src={ME} alt=""/>
+                <div className="header_content">
+                    <h4 className={`language-transition ${language === 'en' ? 'language-visible' : ''}`}>Welcome! I'm</h4>
+                    <h4 className={`language-transition ${language === 'es' ? 'language-visible' : ''}`}>¡Bienvenido! Soy</h4>
+                    <h1>Gino Fiori</h1>
+                    <h5 className={`text-light monoscope language-transition ${language === 'en' ? 'language-visible' : ''}`}><Typewriter options={{strings:['Software Developer'],autoStart:true,loop:true}} /></h5>
+                    <h5 className={`text-light monoscope language-transition ${language === 'es' ? 'language-visible' : ''}`}><Typewriter options={{strings:['Desarrolador de Software'],autoStart:true,loop:true}}/></h5>
+                    
+                    <HeaderSocials/>
+                </div>
+                <div className="header__me">
+                    <div className="me">
+                        <img src={ME} alt=""/>
+                    </div>
                 </div>
             </div>
         </header>

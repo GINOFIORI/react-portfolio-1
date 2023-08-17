@@ -2,22 +2,35 @@ nav{
     background: rgba(0,0,0,0.3);
     width: 100%;
     display: block;
+    display: flex;
+    flex-direction: row;
     padding: 0.7rem 1.7rem;
     z-index: 2;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
     top: 0rem;
-    display: flex;
-    gap: 0.8rem;
     /*border-radius: 1.5rem;*/
     backdrop-filter: blur(15px);
+}
+
+.nav__img{
+    display: none;
+    justify-content: flex-start;
+    height: 3rem;
+    width: auto;
+}
+
+.nav__content{
+    display: flex;
+    gap: 0.8rem;
+    justify-content: flex-end;
 }
 
 nav a{
     background: transparent;
     padding: 0.9rem;
-    border-radius: 20%;
+    border-radius: 50%;
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
@@ -30,4 +43,20 @@ nav a:hover{
 nav a.active{
     background: var(--color-bg);
     color: var(--color-white);
+}
+
+/* ================= MEDIA (MEDIUM DEVICES) =================*/
+@media screen and (max-width: 1024px){
+    .nav__content{
+        gap: 0.6rem;
+        justify-content: center
+    }
+}
+
+/* ================= MEDIA (SMALL DEVICES) =================*/
+@media screen and (max-width: 600PX){
+    .nav__content{
+        gap: 0.6rem;
+        justify-content: center
+    }
 }
