@@ -124,6 +124,19 @@ a:hover{
     border-color: transparent;
 }
 
+.btn.btn-disabled{
+    background: var(--color-bg-variante);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.btn.btn-disabled:hover{
+    background: var(--color-bg-variante);
+    color: var(--color-bg);
+    border-color: transparent;
+    cursor: default
+}
+
 .btn-primary{
     background: var(--color-primary);
     color: var(--color-bg);

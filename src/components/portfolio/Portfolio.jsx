@@ -34,8 +34,8 @@ const Portfolio = () => {
                     <h3>Business Intelligence</h3>
                     <h5>BI Dashboards</h5>
                     <div className="portfolio__item-cta">
-                        <a href="crm.neosistemassrl.com" className="btn" target="_blank">GitHub</a>
-                        <a href="crm.neosistemassrl.com" className="btn btn-primary" target="_blank">Demo</a>
+                        <a className="btn btn-disabled" target="">GitHub</a>
+                        <a className="btn btn-primary btn-disabled" target="">Demo</a>
                     </div>
                 </article>
                 <article className="portfolio__item">
@@ -43,10 +43,10 @@ const Portfolio = () => {
                         <img src={IMG2} alt=""/>
                     </div>
                     <h3>FindMySpot</h3>
-                    <h5>App to find nearest parking space</h5>
+                    <h5>App to find nearest parking</h5>
                     <div className="portfolio__item-cta">
-                        <a href="" className="btn" target="_blank">GitHub</a>
-                        <a href="" className="btn btn-primary" target="_blank">Demo</a>
+                        <a className="btn btn-disabled" target="">GitHub</a>
+                        <a className="btn btn-primary btn-disabled" target="">Demo</a>
                     </div>
                 </article>
             </div>
