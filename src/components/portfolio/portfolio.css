@@ -5,6 +5,7 @@
 }
 
 .portfolio__item {
+    position: relative;
     background: var(--color-bg-variante);
     padding: 1.3rem;
     border-radius: 2rem;
@@ -36,6 +37,19 @@
     margin-bottom: 1rem;
 }
 
+.portfolio__notification{
+    position: absolute;
+    top: 11px;
+    right: -14px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 10rem;
+    background: #3949ab;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 4px 4px 15px rgba(26, 34, 126, 0.876);
+  }
 
 /* ================= MEDIA (MEDIUM DEVICES) =================*/
 @media screen and (max-width: 1024px){
