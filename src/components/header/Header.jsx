@@ -15,8 +15,8 @@ const Header = () => {
                     <h4 className={`language-transition ${language === 'en' ? 'language-visible' : ''}`}>Welcome! I'm</h4>
                     <h4 className={`language-transition ${language === 'es' ? 'language-visible' : ''}`}>¡Bienvenido! Soy</h4>
                     <h1>Gino Fiori</h1>
-                    <h5 className={`text-light monoscope language-transition ${language === 'en' ? 'language-visible' : ''}`}><Typewriter options={{strings:['Software Development Specialist'],autoStart:true,loop:true}} /></h5>
-                    <h5 className={`text-light monoscope language-transition ${language === 'es' ? 'language-visible' : ''}`}><Typewriter options={{strings:['Especialista en Desarrollo de Software'],autoStart:true,loop:true}}/></h5>
+                    <h5 className={`text-light monoscope language-transition ${language === 'en' ? 'language-visible' : ''}`}><Typewriter options={{strings:['Software Designer'],autoStart:true,loop:true}} /></h5>
+                    <h5 className={`text-light monoscope language-transition ${language === 'es' ? 'language-visible' : ''}`}><Typewriter options={{strings:['Diseñador de Software'],autoStart:true,loop:true}}/></h5>
                     
                     <HeaderSocials/>
                 </div>
