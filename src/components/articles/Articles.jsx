@@ -1,12 +1,12 @@
-import React, { useContext, useEffect , useState} from 'react';
+import React, { useContext , useState} from 'react';
 import './articles.css'
 import { LanguageContext } from '../../context/LanguageContext';
 import Lottie from 'react-lottie';
 import lamparita from '../../assets/lamparita.json';
+import articles from '../../assets/articles/articles.json'
 
 const Articles = () => {
     const { language } = useContext(LanguageContext);
-    const lamparitaContainer = React.createRef();
 
     const [isHovered, setIsHovered] = useState(false);
 
@@ -29,32 +29,33 @@ const Articles = () => {
             <div className='container articles__container'>
                 
                 {/***************** TARJETA ******************/}
-                <div className="card" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-                    <div className="header">
-                        <div>
-                            <a className="title" href="#">
-                                Transición ágil
-                            </a>
-                            <p className="name">by Gino Fiori</p>
+                
+                {articles.map((articulo, index) => (
+                    <div className="card" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} key={index}>
+                        <div className="header">
+                            <div>
+                                <a className="title" href="#">
+                                    {articulo.title}
+                                </a>
+                                <p className="name">by {articulo.author}</p>
+                            </div>
+                            <span className={`image ${isHovered ? 'hovered' : ''}`}>
+                                <Lottie options={defaultOptions} isStopped={!isHovered}></Lottie>
+                            </span>
                         </div>
-                        <span className={`image ${isHovered ? 'hovered' : ''}`}>
-                            <Lottie options={defaultOptions} isStopped={!isHovered}></Lottie> 
-                        </span>
+                        <p className="description">{articulo.resume}</p>
+                        <dl className="post-info">
+                            <div className="cr">
+                                <dt className="dt">Publicado</dt>
+                                <dd className="dd">{articulo.date}</dd>
+                            </div>
+                            <div className="cr">
+                                <dt className="dt">Tiempo de lectura</dt>
+                                <dd className="dd">{articulo.readingtime}</dd>
+                            </div>
+                        </dl>
                     </div>
-                    <p className="description">
-                        Un paseo por mi experiencia en la implementación de metodologías ágiles dentro del entorno empresarial
-                    </p>
-                    <dl className="post-info">
-                        <div className="cr">
-                            <dt className="dt">Publicado</dt>
-                            <dd className="dd">22 Oct 2023</dd>
-                        </div>
-                        <div className="cr">
-                            <dt className="dt">Tiempo de lectura</dt>
-                            <dd className="dd">5 minutos</dd>
-                        </div>
-                    </dl>
-                </div>
+                ))}
                 {/***************** TARJETA ******************/}
 
                 

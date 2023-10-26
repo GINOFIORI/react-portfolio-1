@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Transición Ágil",
+        "author": "Gino Fiori",
+        "resume": "Un paseo por mi experiencia en la implementación de metodologías ágiles dentro del entorno empresarial",
+        "date": "2023-10-22",
+        "readingtime": "5 min",
+        "imgurl": "",
+        "content": "",
+        "keywords": ["agile","scrum"]
+    },
+    {
+        "title": "Este es otro articulo",
+        "author": "Gino Fiori",
+        "resume": "Aqui pondremos el resumen del segundo articulo",
+        "date": "2023-10-27",
+        "readingtime": "2 min",
+        "imgurl": "",
+        "content": "",
+        "keywords": ["agile","scrum"]
+      }
+]
