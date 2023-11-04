@@ -9,9 +9,18 @@ import Footer from './components/footer/Footer'
 import {LanguageProvider} from './context/LanguageContext'
 import { Analytics } from '@vercel/analytics/react';
 import Articles from './components/articles/Articles'
+import ArticleDetail from './components/articles/ArticleDetail'
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
 
-const App = () => {
-    return (
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
         <LanguageProvider>
             <Nav />
             <Header />
@@ -23,7 +32,20 @@ const App = () => {
             <Footer/>
             <Analytics />
         </LanguageProvider>
-    )
+    ),
+  },
+  {
+    path: "article",
+    element: 
+    <LanguageProvider>
+        <Nav />
+        <ArticleDetail />
+    </LanguageProvider>
+  },
+]);
+
+const App = () => {
+    return <RouterProvider router={router} fallbackElement={<p>Loading...</p>} />;
 }
 
 export default App
