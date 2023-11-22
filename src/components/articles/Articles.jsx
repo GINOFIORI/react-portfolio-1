@@ -32,7 +32,7 @@ const Articles = () => {
                 {/***************** TARJETA ******************/}
                 
                 {articles.map((articulo, index) => (
-                    <Link to="/article">
+                    <Link to={`/article/${index}`}>
                         <div className="card" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} key={index}>
                             <div className="header">
                                 <div>

@@ -35,7 +35,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "article",
+    path: "article/:id",
     element: 
     <LanguageProvider>
         <Nav />

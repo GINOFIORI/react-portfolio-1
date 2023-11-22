@@ -1,12 +1,36 @@
 [
-    {
-        "title": "Transición Ágil",
-        "author": "Gino Fiori",
-        "resume": "Un paseo por mi experiencia en la implementación de metodologías ágiles dentro del entorno empresarial",
-        "date": "2023-10-22",
-        "readingtime": "5 min",
-        "imgurl": "",
-        "content": "",
+    {   "es":{
+            "title": "Transición Ágil",
+            "author": "Gino Fiori",
+            "resume": "Un paseo por mi experiencia en la implementación de metodologías ágiles dentro del entorno empresarial",
+            "date": "2023-10-22",
+            "readingtime": "5 min",
+            "imgurl": "",
+            "content":  [
+                        "Hablar de la transición ágil en NeoSistemas SRL es remontarse a un viaje transformador que marcó un antes y un después en nuestra forma de abordar el desarrollo de software. Como analista de sistemas y líder de equipo, viví en primera persona el cambio radical que experimentamos, pasando de tareas desorganizadas y sin priorización a un meticuloso planeamiento con objetivos comunes.",
+                        "Recuerdo claramente los días en los que las tareas parecían un rompecabezas sin conexión aparente. La falta de estructura generaba confusiones y desafíos constantes para el equipo. Fue entonces cuando decidimos emprender el viaje hacia la agilidad, entendiendo que esta transformación era esencial para gestionar el crecimiento acelerado de nuestra cartera de productos y, en consecuencia, de clientes.",
+                        "La clave de nuestra transición fue la definición clara de objetivos. Pasamos de abordar tareas aisladas a planificar incidentes puntuales que se alineaban con una visión compartida. Este cambio no solo trajo orden a nuestro caos diario, sino que también inyectó una nueva energía en el equipo. Tener un propósito común motivó a cada miembro a apuntar en la misma dirección, a colaborar de manera más efectiva y a comprometerse con el éxito del proyecto.",
+                        "La planificación estratégica se convirtió en nuestro faro guía. Ahora, en lugar de simplemente reaccionar a las demandas del momento, anticipamos y abordamos proactivamente los desafíos. Adoptamos los principios de Scrum como marco de trabajo, haciendo hincapié en la transparencia, inspección y adaptación. La autoorganización del equipo se convirtió en la norma, permitiendo que cada miembro aportara su experiencia de manera significativa.",
+                        "Esta transición no solo mejoró la eficiencia interna, sino que también tuvo un impacto directo en nuestra capacidad para atender a un creciente número de clientes. La entrega de productos más rápida y la capacidad de adaptación a los cambios del mercado se volvieron fundamentales para mantenernos competitivos. La calidad de nuestro trabajo aumentó, y la satisfacción del cliente se reflejó en la expansión de nuestra cartera.",
+                        "En retrospectiva, la transición ágil no solo fue una adopción de metodologías, sino un cambio cultural que transformó la forma en que abordamos el trabajo en equipo. La planificación estratégica nos brindó una visión clara, y la colaboración se convirtió en el motor que impulsa nuestro éxito. Como líder de equipo, ver el impacto positivo en cada miembro y en nuestra empresa en general ha sido la recompensa más gratificante de este viaje hacia la agilidad."
+                        ]
+            },
+        "en": {
+            "title": "Agile Transition",
+            "author": "Gino Fiori",
+            "resume": "A journey through my experience in implementing agile methodologies within the business environment",
+            "date": "2023-10-22",
+            "readingtime": "5 min",
+            "imgurl": "",
+            "content": [
+                "Speaking about the agile transition at NeoSistemas SRL is to embark on a transformative journey that marked a before and after in our approach to software development. As a systems analyst and team leader, I experienced firsthand the radical change we underwent, transitioning from disorganized and unprioritized tasks to meticulous planning with common objectives.",
+                "I vividly recall the days when tasks seemed like a puzzle with no apparent connection. The lack of structure led to confusion and constant challenges for the team. It was then that we decided to embark on the journey towards agility, understanding that this transformation was essential to manage the accelerated growth of our product portfolio and, consequently, our client base.",
+                "The key to our transition was the clear definition of objectives. We shifted from addressing isolated tasks to planning specific incidents aligned with a shared vision. This change not only brought order to our daily chaos but also injected new energy into the team. Having a common purpose motivated each member to aim in the same direction, collaborate more effectively, and commit to the success of the project.",
+                "Strategic planning became our guiding light. Now, instead of merely reacting to the demands of the moment, we anticipated and proactively addressed challenges. We embraced the principles of Scrum as our framework, emphasizing transparency, inspection, and adaptation. Team self-organization became the norm, allowing each member to contribute their expertise significantly.",
+                "This transition not only improved internal efficiency but also had a direct impact on our ability to serve a growing number of clients. Faster product delivery and adaptability to market changes became essential to stay competitive. The quality of our work increased, and customer satisfaction was reflected in the expansion of our portfolio.",
+                "In retrospect, the agile transition was not just an adoption of methodologies but a cultural change that transformed how we approach teamwork. Strategic planning provided us with a clear vision, and collaboration became the engine driving our success. As a team leader, witnessing the positive impact on each member and our company as a whole has been the most rewarding aspect of this journey towards agility."
+            ]
+            },
         "keywords": ["agile","scrum"]
     },
     {
