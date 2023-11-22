@@ -37,23 +37,23 @@ const Articles = () => {
                             <div className="header">
                                 <div>
                                     <a className="title" href="#">
-                                        {articulo.title}
+                                        {articulo.es.title}
                                     </a>
-                                    <p className="name">by {articulo.author}</p>
+                                    <p className="name">by {articulo.es.author}</p>
                                 </div>
                                 <span className={`image ${isHovered ? 'hovered' : ''}`}>
                                     <Lottie options={defaultOptions} isStopped={!isHovered}></Lottie>
                                 </span>
                             </div>
-                            <p className="description">{articulo.resume}</p>
+                            <p className="description">{articulo.es.resume}</p>
                             <dl className="post-info">
                                 <div className="cr">
                                     <dt className="dt">Publicado</dt>
-                                    <dd className="dd">{articulo.date}</dd>
+                                    <dd className="dd">{articulo.es.date}</dd>
                                 </div>
                                 <div className="cr">
                                     <dt className="dt">Tiempo de lectura</dt>
-                                    <dd className="dd">{articulo.readingtime}</dd>
+                                    <dd className="dd">{articulo.es.readingtime}</dd>
                                 </div>
                             </dl>
                         </div>

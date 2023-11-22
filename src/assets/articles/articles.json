@@ -33,14 +33,16 @@
             },
         "keywords": ["agile","scrum"]
     },
-    {
-        "title": "Este es otro articulo",
-        "author": "Gino Fiori",
-        "resume": "Aqui pondremos el resumen del segundo articulo",
-        "date": "2023-10-27",
-        "readingtime": "2 min",
-        "imgurl": "",
-        "content": "",
+    {   "es":{
+            "title": "Este es otro articulo",
+            "author": "Gino Fiori",
+            "resume": "Aqui pondremos el resumen del segundo articulo",
+            "date": "2023-10-27",
+            "readingtime": "2 min",
+            "imgurl": "",
+            "content": ""
+
+        },
         "keywords": ["agile","scrum"]
-      }
+    }
 ]
