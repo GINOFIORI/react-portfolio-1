@@ -1,142 +1,15 @@
-header{
-    padding-top: 3rem;
-    margin-top: 2rem;
-    overflow: hidden;
+.article_container{
+    
 }
 
-header h1{
-    font-size:4rem;
-}
-
-.header__container{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 15%;
-    padding-top: 2rem;
-}
-
-.header_content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.monoscope{
-    font-family: monospace;
-    font-size: 1.2rem;
-}
-
-.cta{
-    margin-top: 2.5rem;
-    display: flex;
-    gap: 1.2rem;
-    justify-content: center;
-}
-
-.header__socials{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    gap: 2.5rem;
-    padding-top: 2rem;
-}
-
-.header__socials a{
-    border: 1px solid var(--color-blanco);
-    padding: 0.9rem;
-    border-radius: 50%;
-    display: flex;
-    color: var(--color-light);
-}
-
-.header__socials a:hover{
-    background: rgba(0,0,0,0.3);
-}
-
-.me{
-    background: transparent;
-    width: 35rem;
-    height: auto;
-    display: flex;
-}
-
-.small{
-    font-size: 0.7rem;
-    font-weight: normal !important;
+.article_container h2{
+    margin-bottom: 20pt;
     color: var(--color-claro);
-    margin: 0;
-    padding: 0;
-}
-/* ================= MEDIA (MEDIUM DEVICES) =================*/
-@media screen and (max-width: 1024px){
-    .header__container{
-        text-align: center;
-        height: 100%;
-        position: relative;
-    }
-    
-    .monoscope{
-        font-family: monospace;
-        font-size: 0.9rem;
-    }
-    .header__container{
-        text-align: center;
-        height: 100%;
-        position: relative;
-    }
-    
-    .monoscope{
-        font-family: monospace;
-        font-size: 0.9rem;
-    }
-
-    .header__socials{
-        align-self: center;
-        gap: 1rem;
-        font-size: 50%;
-    }
-    .me{
-        width: 20rem;
-        height: auto;
-    }
 }
 
-/* ================= MEDIA (SMALL DEVICES) =================*/
-@media screen and (max-width: 600PX){
-
-    .header__container{
-        text-align: center;
-        height: 100%;
-        position: relative;
-    }
-    
-    .monoscope{
-        font-family: monospace;
-        font-size: 0.9rem;
-    }
-    .header__container{
-        display: inline;
-        text-align: center;
-        height: 100%;
-        position: relative;
-    }
-    
-    .monoscope{
-        font-family: monospace;
-        font-size: 0.9rem;
-    }
-
-    .header__socials{
-        align-self: center;
-        gap: 0.5rem;
-    }
-    .me{
-        width: 18rem;
-        height: auto;
-    }
-    .header__me{
-        margin-top: 2rem;
-        display: flex;
-        justify-content: center;
-    }
+.article_container p{
+    text-indent: 1rem;
+    line-height: 2;
+    margin-bottom: 20pt;
+    color: var(--color-claro);
 }

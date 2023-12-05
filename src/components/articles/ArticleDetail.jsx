@@ -14,15 +14,16 @@ const ArticleDetail = () => {
     const { language } = useContext(LanguageContext);
     return (
         <header>
-            <div className="container header__container">
-                <div className="header_content">
+            <div className="container article_container">
+                <div className="article_content">
                     <h1>{article_spanish.title}</h1>
+                    <h2>{article_spanish.resume}</h2>
+                    {article_spanish.content.map(paragraph => (
+                        <p>{paragraph}</p>
+                        
+                    ))
+                    }
                 </div>
-            {article_spanish.content.map(paragraph => (
-                <p>{paragraph}</p>
-                
-            ))
-            }
             </div>
 
         </header>
